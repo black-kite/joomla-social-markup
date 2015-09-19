@@ -14,21 +14,20 @@
 		<filename>index.html</filename>
 		<filename>socialmarkup.css</filename>
 	</files>
-	<languages>
-		<language tag="en-GB">admin/language/en-GB/en-GB.plg_content_socialmarkup.ini</language>
-		<language tag="en-GB">admin/language/en-GB/en-GB.plg_content_socialmarkup.sys.ini</language>
+	<languages folder="admin/language">
+		<language tag="de-DE">de-DE/de-DE.plg_content_socialmarkup.ini</language>
+		<language tag="de-DE">de-DE/de-DE.plg_content_socialmarkup.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
-			<fieldset name="FIELDSET_OGRAPHRAPH">
+			<fieldset name="FIELDSET_OGRAPH">
 				<field name="spacer" type="spacer" class="text"
-					label="COM_PLUGINS_FIELDSET_OGRAPHRAPH_FIELDSET_LABEL"/>
+					label="COM_PLUGINS_FIELDSET_OGRAPH_FIELDSET_LABEL"/>
 
 				<field type="list" name="og_include_all" default="yes" label="OGRAPH_INCLUDE_ALL" description="OGRAPH_INCLUDE_ALL_DESC">
 					<option value="yes">JYES</option>
 					<option value="no">JNO</option>
 				</field>
-				<field type="category" name="og_category_apply" default="" label="OGRAPH_CATEGORY_APPLY" description="OGRAPH_CATEGORY_APPLY_DESC" extension="com_content" multiple="true" size="5"/>
 				<field type="list" name="og_include_featured" default="yes" label="OGRAPH_INCLUDE_FEATURED" description="OGRAPH_INCLUDE_FEATURED_DESC">
 					<option value="yes">JYES</option>
 					<option value="no">JNO</option>
