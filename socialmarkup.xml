@@ -21,22 +21,51 @@
 	<config>
 		<fields name="params">
 			<fieldset name="FIELDSET_OGRAPH">
-				<field name="spacer" type="spacer" class="text"
+				<field name="spacer" 
+					type="spacer" 
+					class="text"
 					label="COM_PLUGINS_FIELDSET_OGRAPH_FIELDSET_LABEL"/>
 
-				<field type="list" name="og_include_all" default="yes" label="OGRAPH_INCLUDE_ALL" description="OGRAPH_INCLUDE_ALL_DESC">
+				<field type="list" 
+					name="og_include_all" 
+					default="yes" label="OGRAPH_INCLUDE_ALL" 
+					description="OGRAPH_INCLUDE_ALL_DESC">
 					<option value="yes">JYES</option>
 					<option value="no">JNO</option>
 				</field>
-				<field type="list" name="og_include_featured" default="yes" label="OGRAPH_INCLUDE_FEATURED" description="OGRAPH_INCLUDE_FEATURED_DESC">
+				<field type="list" 
+					name="og_include_featured" 
+					default="yes" label="OGRAPH_INCLUDE_FEATURED" 
+					description="OGRAPH_INCLUDE_FEATURED_DESC">
 					<option value="yes">JYES</option>
 					<option value="no">JNO</option>
 				</field>
-				<field type="text" name="og_app_id" default="" label="APP_ID_OGRAPH" description="APP_ID_OGRAPH_DESC" />
-				<field type="media" name="og_image" default="" label="DEFAULT_IMAGE_OGRAPH" description="DEFAULT_IMAGE_OGRAPH_DESC" directory="" preview="true" />
-				<field type="text" name="og_author_url" default="" label="AUTHOR_URL_OGRAPH" description="AUTHOR_URL_OGRAPH_DESC" />
-				<field type="text" name="og_description_limit" default="140" label="OGRAPH_DESCRIPTION_LIMIT" description="OGRAPH_DESCRIPTION_LIMIT_DESC" />
-				<field type="list" name="og_cummulative_keywords" default="yes" label="OGRAPH_CUMMULATIVE_KEYWORDS" description="OGRAPH_CUMMULATIVE_KEYWORDS_DESC">
+				<field type="text" 
+					name="og_app_id" default="" 
+					label="APP_ID_OGRAPH" 
+					description="APP_ID_OGRAPH_DESC" />
+				<field type="media" 
+					name="og_image" 
+					default="" 
+					label="DEFAULT_IMAGE_OGRAPH" 
+					description="DEFAULT_IMAGE_OGRAPH_DESC" 
+					directory="" 
+					preview="true" />
+				<field type="text" 
+					name="og_author_url" 
+					default="" 
+					label="AUTHOR_URL_OGRAPH" 
+					description="AUTHOR_URL_OGRAPH_DESC" />
+				<field type="text" 
+					name="og_description_limit" 
+					default="140" 
+					label="OGRAPH_DESCRIPTION_LIMIT" 
+					description="OGRAPH_DESCRIPTION_LIMIT_DESC" />
+				<field type="list" 
+					name="og_cummulative_keywords" 
+					default="yes" 
+					label="OGRAPH_CUMMULATIVE_KEYWORDS" 
+					description="OGRAPH_CUMMULATIVE_KEYWORDS_DESC">
 					<option value="yes">JYES</option>
 					<option value="no">JNO</option>
 				</field>
