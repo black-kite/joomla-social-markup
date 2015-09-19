@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+	<name>Social Markup</name>
+	<author>Milan Gress</author>
+	<creationDate>July 2015</creationDate>
+	<copyright>Copyright (C) 2009 - 2015 Die Marketingmacher. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl.html GNU/GPL v3</license>
+	<authorUrl>www.die-marketingmacher.com</authorUrl>
+	<authorEmail>milan@die-marketingmacher.com</authorEmail>
+	<version>0.0.1</version>
+	<description>Social Markup - Social SEO - add markup for social media></description>
+	<files>
+		<filename plugin="socialmarkup">socialmarkup.php</filename>
+		<filename>index.html</filename>
+		<filename>socialmarkup.css</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">admin/language/en-GB/en-GB.plg_content_socialmarkup.ini</language>
+		<language tag="en-GB">admin/language/en-GB/en-GB.plg_content_socialmarkup.sys.ini</language>
+	</languages>
+	<config>
+		
+	</config>
+</extension>
