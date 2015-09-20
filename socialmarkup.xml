@@ -7,16 +7,16 @@
 	<license>http://www.gnu.org/licenses/gpl.html GNU/GPL v3</license>
 	<authorUrl>www.die-marketingmacher.com</authorUrl>
 	<authorEmail>milan@die-marketingmacher.com</authorEmail>
-	<version>0.0.1</version>
-	<description>Social Markup - Social SEO - add markup for social media></description>
+	<version>0.0.2</version>
+	<description><![CDATA[PLG_CONTENT_SOCIALMARKUP_DESCRIPTION]]></description>
 	<files>
 		<filename plugin="socialmarkup">socialmarkup.php</filename>
 		<filename>index.html</filename>
 		<filename>socialmarkup.css</filename>
 	</files>
 	<languages folder="admin/language">
-		<language tag="de-DE">de-DE/de-DE.plg_content_socialmarkup.ini</language>
-		<language tag="de-DE">de-DE/de-DE.plg_content_socialmarkup.sys.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_content_socialmarkup.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_content_socialmarkup.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
@@ -43,19 +43,7 @@
 				<field type="text" 
 					name="og_app_id" default="" 
 					label="APP_ID_OGRAPH" 
-					description="APP_ID_OGRAPH_DESC" />
-				<field type="media" 
-					name="og_image" 
-					default="" 
-					label="DEFAULT_IMAGE_OGRAPH" 
-					description="DEFAULT_IMAGE_OGRAPH_DESC" 
-					directory="" 
-					preview="true" />
-				<field type="text" 
-					name="og_author_url" 
-					default="" 
-					label="AUTHOR_URL_OGRAPH" 
-					description="AUTHOR_URL_OGRAPH_DESC" />
+					description="APP_ID_OGRAPH_DESC" /
 				<field type="text" 
 					name="og_description_limit" 
 					default="140" 
@@ -69,6 +57,43 @@
 					<option value="yes">JYES</option>
 					<option value="no">JNO</option>
 				</field>
+			</fieldset>
+			<fieldset name="FIELDSET_DEFAULTS">
+				<field type="list" name="og_type_articles" default="article" label="TYPE_OG_ARTICLES" description="TYPE_OG_ARTICLES_DESC">
+					<option value="article">Article</option>
+					<option value="blog">Blog</option>
+					<option value="book">Book</option>
+					<option value="profile">Profile</option>
+					<option value="video.movie">Movie</option>
+					<option value="video.episode">TV Episode</option>
+					<option value="video.tv_show">TV Show</option>
+					<option value="video.other">Video</option>
+					<option value="website">Website</option>
+				</field>
+				<field type="list" name="og_type_default" default="website" label="TYPE_OG_DEFAULT" description="TYPE_OG_DEFAULT_DESC">
+					<option value="article">Article</option>
+					<option value="blog">Blog</option>
+					<option value="book">Book</option>
+					<option value="profile">Profile</option>
+					<option value="video.movie">Movie</option>
+					<option value="video.episode">TV Episode</option>
+					<option value="video.tv_show">TV Show</option>
+					<option value="video.other">Video</option>
+					<option value="website">Website</option>
+				</field>
+				<field type="media" 
+					name="og_image" 
+					default="" 
+					label="DEFAULT_IMAGE_OGRAPH" 
+					description="DEFAULT_IMAGE_OGRAPH_DESC" 
+					directory="" 
+					preview="true" />
+				<field type="text" 
+					name="og_author_url" 
+					default="" 
+					label="AUTHOR_URL_OGRAPH" 
+					description="AUTHOR_URL_OGRAPH_DESC" />
+
 			</fieldset>
 		</fields>
 	</config>
