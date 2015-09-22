@@ -8,7 +8,7 @@
 	<authorUrl>www.die-marketingmacher.com</authorUrl>
 	<authorEmail>milan@die-marketingmacher.com</authorEmail>
 	<version>0.0.2</version>
-	<description><![CDATA[PLG_CONTENT_SOCIALMARKUP_DESCRIPTION]]></description>
+	<description>description</description>
 	<files>
 		<filename plugin="socialmarkup">socialmarkup.php</filename>
 		<filename>index.html</filename>
@@ -25,7 +25,6 @@
 					type="spacer" 
 					class="text"
 					label="COM_PLUGINS_FIELDSET_OGRAPH_FIELDSET_LABEL"/>
-
 				<field type="list" 
 					name="og_include_all" 
 					default="yes" label="OGRAPH_INCLUDE_ALL" 
@@ -43,7 +42,7 @@
 				<field type="text" 
 					name="og_app_id" default="" 
 					label="APP_ID_OGRAPH" 
-					description="APP_ID_OGRAPH_DESC" /
+					description="APP_ID_OGRAPH_DESC" />
 				<field type="text" 
 					name="og_description_limit" 
 					default="140" 
@@ -59,7 +58,11 @@
 				</field>
 			</fieldset>
 			<fieldset name="FIELDSET_DEFAULTS">
-				<field type="list" name="og_type_articles" default="article" label="TYPE_OG_ARTICLES" description="TYPE_OG_ARTICLES_DESC">
+				<field type="list" 
+					name="og_type_articles" 
+					default="article" 
+					label="TYPE_OG_ARTICLES" 
+					description="TYPE_OG_ARTICLES_DESC">
 					<option value="article">Article</option>
 					<option value="blog">Blog</option>
 					<option value="book">Book</option>
@@ -70,7 +73,11 @@
 					<option value="video.other">Video</option>
 					<option value="website">Website</option>
 				</field>
-				<field type="list" name="og_type_default" default="website" label="TYPE_OG_DEFAULT" description="TYPE_OG_DEFAULT_DESC">
+				<field type="list" 
+					name="og_type_default" 
+					default="website" 
+					label="TYPE_OG_DEFAULT" 
+					description="TYPE_OG_DEFAULT_DESC">
 					<option value="article">Article</option>
 					<option value="blog">Blog</option>
 					<option value="book">Book</option>
@@ -93,7 +100,6 @@
 					default="" 
 					label="AUTHOR_URL_OGRAPH" 
 					description="AUTHOR_URL_OGRAPH_DESC" />
-
 			</fieldset>
 		</fields>
 	</config>
