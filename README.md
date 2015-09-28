@@ -1,4 +1,4 @@
 # joomla-social-markup
-Joomla Plugin
+![alpha](https://img.shields.io/badge/status-alpha-red.svg?style=flat-square)
 
---install failes
+Joomla Plugin
